@@ -1,0 +1,21 @@
+.header {
+  float: left;
+}
+
+
+
+.header li {
+  display: inline;
+
+}
+
+.header ul {
+  margin-left: 20em;
+  word-spacing: 7.5em;
+}
+
+span {
+margin-left: -50em;
+margin-top: 8px;
+padding-top: 20px;
+}
