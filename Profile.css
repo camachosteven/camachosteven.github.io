@@ -1,12 +1,13 @@
 .navigation {
   position: fixed;
   width: 100%;
+  background: white;
+
 }
 
 .header {
   float: left;
 }
-
 
 
 .header li {
@@ -24,7 +25,20 @@
   margin-left: 7.5em;
 }
 
+
+
+.background-thing {
+  margin-top: 95px;
+  width: 100%;
+  position: relative;
+  z-index: -1
+}
+
 #portrait {
   margin-top: 100px;
   border-radius: 75%;
+  position: absolute;
+  top: 185px;
+  left: 500px;
+  z-index: -1;
 }
