@@ -5,17 +5,21 @@
 
 
 .header li {
+  float: left;
   display: inline;
+}
+
+.firstul {
+  margin-left: 25em;
+  margin-top: 1.5em;
 
 }
 
-.header ul {
-  margin-left: 20em;
-  word-spacing: 7.5em;
+.firstul li {
+  margin-left: 7.5em;
 }
 
-span {
-margin-left: -50em;
-margin-top: 8px;
-padding-top: 20px;
+.name {
+  margin-left: 5em;
+  margin-top: 1.5em;
 }
