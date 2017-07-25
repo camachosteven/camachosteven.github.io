@@ -1,6 +1,4 @@
-html {
 
-}
 
 body {
   width: 100%;
@@ -21,18 +19,10 @@ body {
 #logo {
   height: 100px;
   width: 100px;
-  /*background-color: white;*/
   display: flex;
   align-items: center;
-  /*border-radius: 50%;*/
-
 }
 
-
-#logo:hover {
-  border: 2px dashed white;
-  background: none;
-}
 .header img {
   margin-left: 0.7em;
 }
@@ -41,14 +31,6 @@ body {
   float: left;
   display: inline;
   margin-top: 0.8em;
-}
-
-.header li:hover {
-  margin-top: -7.5px;
-  border: 1px solid white;
-  border-radius: 10%;
-  padding: 8px;
-  position: static;
 }
 
 .firstul {
@@ -62,19 +44,29 @@ body {
 }
 
 
+.bio {
+  padding: 30px;
+  width: 75%;
+  margin: auto;
+  margin-bottom: 100px;
+  display: flex;
 
-.background-thing {
-  margin-top: 95px;
-  margin-left: -8px;
-  position: relative;
-  z-index: -1
+}
+
+.bio ul {
+  margin-top: 150px;
+  margin-left: 20em;
+  display: inline-block;
+  text-align: center;
+  list-style: none;
+}
+
+#name {
+  list-style: none;
 }
 
 #portrait {
   margin-top: 100px;
   border-radius: 75%;
-  position: absolute;
-  top: 185px;
-  left: 500px;
   z-index: -1;
 }
