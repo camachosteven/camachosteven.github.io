@@ -25,7 +25,7 @@
     </div>
   </div>
 
-  <div>
+
   <div class="bio">
   <img id="portrait" src="Portrait.JPG"
   alt="Portrait Picture"
@@ -39,13 +39,31 @@
     <li>Basketball player (recreationally)</li>
   </ul>
 </div>
-  </div>
 
-  <img src="http://wallpapercave.com/wp/S8W57LV.jpg"
+
+<div>
+  <img src="Carousel1.jpg"
    alt="Piano"
-   width="100%"
+   width="750px"
    height="500px"
-   class="background-thing"/>
+   class="piano"
+   id="carousel"/>
+   <div class="left">
+     <img id="left" src="Left-Arrow.png"
+     alt="left arrow"
+     height="50px"
+     width="50px"
+     onclick="slidePicture(-1)"/>
+   </div>
+   <div class="right">
+     <img id="right" src="Right-Arrow.png"
+     alt="right arrow"
+     height="50px"
+     width="50px"
+     onclick="slidePicture(1)"/>
+   </div>
+ </div>
+
   </body>
   <script
   src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js">

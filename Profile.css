@@ -7,7 +7,7 @@ body {
 .navigation {
   position: fixed;
   width: 100%;
-  margin-top: -8px;
+  margin-top: -100px;
   margin-left: -8px;
   background-color: white;
 }
@@ -46,8 +46,9 @@ body {
 
 .bio {
   padding: 30px;
-  width: 75%;
+  width: 90%;
   margin: auto;
+  margin-top: 100px;
   margin-bottom: 100px;
   display: flex;
 
@@ -61,12 +62,32 @@ body {
   list-style: none;
 }
 
+
+#left {
+  position: absolute;
+  top: 650px;
+  left: 15px;
+}
+
+#right {
+  position: absolute;
+  top: 650px;
+  right: 15px;
+}
+
+
+
 #name {
   list-style: none;
+  margin: auto;
 }
 
 #portrait {
-  margin-top: 100px;
   border-radius: 75%;
-  z-index: -1;
+}
+
+#carousel {
+  border-radius: 5%;
+  margin-left: 15em;
+
 }
