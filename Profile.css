@@ -2,6 +2,8 @@
 
 body {
   width: 100%;
+  background-color: #660000;
+  color: white;
 }
 
 .navigation {
@@ -9,7 +11,6 @@ body {
   width: 100%;
   margin-top: -100px;
   margin-left: -8px;
-  background-color: white;
 }
 
 .header {
@@ -21,6 +22,8 @@ body {
   width: 100px;
   display: flex;
   align-items: center;
+  background-color: white;
+  border-radius: 100%;
 }
 
 .header img {
@@ -45,6 +48,7 @@ body {
 
 
 .bio {
+
   padding: 30px;
   width: 90%;
   margin: auto;
@@ -55,8 +59,8 @@ body {
 }
 
 .bio ul {
-  margin-top: 150px;
-  margin-left: 20em;
+  margin-top: 90px;
+  margin-left: 18em;
   display: inline-block;
   text-align: center;
   list-style: none;
@@ -84,10 +88,15 @@ body {
 
 #portrait {
   border-radius: 75%;
+  margin-left: 100px;
 }
 
 #carousel {
   border-radius: 5%;
   margin-left: 15em;
 
+}
+
+.carousel {
+  background-color: #ff9900;
 }
