@@ -14,20 +14,20 @@ function slidePicture(x) {
   }
 
   Image.src = "Carousel" + number + ".jpg";
-
 }
 
-window.setInterval(function slidePicture() {
-  var Image = document.getElementById('carousel');
+window.setInterval(
+  function slidePicture() {
+    var Image = document.getElementById('carousel');
 
-  number += 1;
+    number += 1;
 
-  if (number > 4) {
-      number = 1;
-  }
-  if (number < 1) {
-    number = totalPictures;
-  }
+    if (number > 4) {
+        number = 1;
+    }
+    if (number < 1) {
+      number = totalPictures;
+    }
 
-  Image.src = "Carousel" + number + ".jpg";
-}, 10000);
+    Image.src = "Carousel" + number + ".jpg";
+  }, 5000);
