@@ -1,8 +1,6 @@
-
-
 body {
+  margin-top: -150px;
   width: 100%;
-  background-color: #e37222;
   color: rgb(225, 225, 225);
   font-family: "Artifika", serif;
 }
@@ -10,7 +8,7 @@ body {
 .navigation {
   position: fixed;
   width: 100%;
-  margin-top: -150px;
+  margin-top: -100px ;
   margin-left: -8px;
   background-color: #018b95;
 }
@@ -62,17 +60,20 @@ body {
 
 .bio {
   padding: 30px;
-  width: 90%;
+  width: 97%;
   margin: auto;
-  margin-top: 150px;
+  margin-top: 250px;
   margin-bottom: 50px;
+  margin-left: -20px;
   display: flex;
+  background-color: #e37222;
 
 }
 
 .bio ul {
   margin-top: 0;
   margin-left: 2em;
+  padding: 100px 0;
   display: inline-block;
   text-align: center;
   list-style: none;
@@ -89,7 +90,7 @@ body {
 #right {
   position: absolute;
   top: 650px;
-  right: 375px;
+  right: 396px;
 }
 
 
@@ -102,9 +103,21 @@ body {
 
 #portrait {
   border-radius: 75%;
-  margin-left: 100px;
+  margin-left: 164px;
 
 }
+
+.parallax-inner1 {
+  color: #018b95;
+  margin-left: 42em;
+  padding: 100px 0;
+}
+
+/*.parallax1 {
+  margin-left: 3.5em;
+  width: 90%;
+  background: url("Road.jpg") repeat fixed 100%;
+}*/
 
 #carousel {
   border-radius: 5%;

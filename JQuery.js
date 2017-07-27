@@ -1,18 +1,18 @@
 $(document).ready(function() {
-  $('.navigation, .bio ul, #portrait').hide();
-  $('.navigation, .bio ul, #portrait').fadeIn(500);
+  $('#logo, .firstul, .bio ul, #portrait').hide();
+  $('#logo, .firstul, .bio ul, #portrait').fadeIn(750);
 
   $('#firstul > li').hover(
     function() {
-    $(this).addClass('lijquery', 5000);
+    $(this).addClass('lijquery');
     },
 
     function() {
-      $(this).removeClass('lijquery', 5000);
+      $(this).removeClass('lijquery');
     }
   );
 
-  $('#logo img').hover(
+  $('#logo').hover(
     function() {
       $('#logo').addClass('logojquery');
     },
