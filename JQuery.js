@@ -1,6 +1,6 @@
 $(document).ready(function() {
-  $('#logo, .firstul, .bio ul, #portrait').hide();
-  $('#logo, .firstul, .bio ul, #portrait').fadeIn(750);
+  $('#logo, .firstul, .bio ul, .bio p, #portrait').hide();
+  $('#logo, .firstul, .bio ul, .bio p, #portrait').fadeIn(750);
 
   $('#firstul > li').hover(
     function() {
@@ -19,6 +19,16 @@ $(document).ready(function() {
 
     function() {
       $('#logo').removeClass('logojquery');
+    }
+  );
+
+  $('.parallax-inner1').hover(
+    function() {
+      $(this).addClass('parallaxjquery');
+    },
+
+    function() {
+      $(this).removeClass('parallaxjquery');
     }
   );
 });
