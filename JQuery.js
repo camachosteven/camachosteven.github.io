@@ -31,4 +31,34 @@ $(document).ready(function() {
       $(this).removeClass('parallaxjquery');
     }
   );
+
+  $('.parallax-inner2').hover(
+    function() {
+      $(this).addClass('parallaxjquery');
+    },
+
+    function() {
+      $(this).removeClass('parallaxjquery');
+    }
+  );
+
+  $('.parallax-inner3').hover(
+    function() {
+      $(this).addClass('parallaxjquery');
+    },
+
+    function() {
+      $(this).removeClass('parallaxjquery');
+    }
+  );
+
+  $('.parallax-inner4').hover(
+    function() {
+      $(this).addClass('parallaxjquery');
+    },
+
+    function() {
+      $(this).removeClass('parallaxjquery');
+    }
+  );
 });

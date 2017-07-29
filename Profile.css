@@ -71,7 +71,8 @@ body {
 }
 
 .bio ul {
-  margin-left: 5em;
+  width: 646.43px;
+  margin-left: 0em;
   margin-top: 100px;
   display: inline-block;
   text-align: center;
@@ -107,26 +108,26 @@ body {
 
 #portrait {
   border-radius: 75%;
-  margin-left: 164px;
+  margin-left: 150px;
   margin-top: 50px;
 }
 
-.parallax-inner1 {
+.parallax-inner1, .parallax-inner2, .parallax-inner3, .parallax-inner4 {
   height: 100px;
   width: 200px;
+  margin: auto;
   background-color: white;
   border-radius: 25%;
   color: #018b95;
   font-size: 30px;
   text-align: center;
-  margin: auto;
   display: flex;
   align-items: center;
   justify-content: center;
   transition: color 0.25s, background-color 0.25s;
 }
 
-.parallax1 {
+.parallax1, .parallax2, .parallax3, .parallax4 {
   margin-top: -50px;
   margin-left: -8px;
   padding: 150px 0;
@@ -143,14 +144,19 @@ body {
   margin-left: 3.5em;
 }
 
-.piano {
+.skills {
   margin-top: 125px;
 }
 
-.skill-title {
-  margin-left: -50px;
+.skill-title, .skill-title2 {
+  margin-left: -20px;
   list-style: none;
-  font-size: 40px;
+  font-size: 60px;
+  letter-spacing: 0.3em;
+}
+
+.skill-title2 {
+  margin-left: -220px;
 }
 
 .skill-info {
@@ -159,14 +165,32 @@ body {
   list-style: square;
 }
 
+
 #info1 {
   margin-top: 4em;
 }
 
-.carousel {
+#info2 {
+  margin-top: 3em;
+}
+
+#info3 {
+  margin-top: 3em;
+}
+
+#info4 {
+  margin-top: 3em;
+}
+
+.carousel, .carousel2 {
   height: 600px;
   background-color: rgb(225, 225, 225);
-  color: black;
+  color: #e37222;
   display: flex;
   margin-left: -8px;
+}
+
+.carousel2 {
+  background-color: #e37222;
+  color: rgb(225, 225, 225);
 }
