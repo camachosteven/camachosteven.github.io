@@ -145,9 +145,10 @@ body {
 .parallax0 {
   background: url("Welcome.jpg") repeat fixed 100%;
 }
- 
+
 .parallax4 {
-  background: url("")
+  background: url("Road.jpg") repeat fixed;
+  background-size: cover;
 }
 
 .parallaxjquery {
