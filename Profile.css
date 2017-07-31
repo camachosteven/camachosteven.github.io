@@ -148,7 +148,7 @@ body {
   margin-top: 125px;
 }
 
-.skill-title, .skill-title2 {
+.skill-title, .skill-title2, .skill-title3, .skill-title4 {
   margin-left: -20px;
   list-style: none;
   font-size: 60px;
@@ -157,6 +157,19 @@ body {
 
 .skill-title2 {
   margin-left: -220px;
+}
+
+.skill-title3 {
+  margin-left: -200px;
+}
+
+.skill-title4 {
+  margin-left: -300px;
+}
+
+.skill-title4 span {
+  font-size: 20px;
+  letter-spacing: -0.1em;
 }
 
 .skill-info {
