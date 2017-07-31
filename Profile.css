@@ -24,6 +24,7 @@ body {
   align-items: center;
   border-radius: 100%;
   background-color: rgb(225, 225, 225);
+  transition: border 0.25s;
 }
 
 .logojquery {
@@ -49,13 +50,13 @@ body {
 .firstul li {
   margin-left: 5em;
   font-size: 18px;
+  transition: border 0.25s, border-style 0.25s, padding 0.25s;
 }
 
 .lijquery {
   border: 2px rgb(225, 225, 225);
   border-style: solid dotted;
   padding: 5px;
-
 }
 
 .bio {
@@ -112,11 +113,11 @@ body {
   margin-top: 50px;
 }
 
-.parallax-inner1, .parallax-inner2, .parallax-inner3, .parallax-inner4 {
+ .parallax-inner1, .parallax-inner2, .parallax-inner3, .parallax-inner4 {
   height: 100px;
   width: 200px;
   margin: auto;
-  background-color: white;
+  background-color: rgb(225, 225, 225);
   border-radius: 25%;
   color: #018b95;
   font-size: 30px;
@@ -127,16 +128,31 @@ body {
   transition: color 0.25s, background-color 0.25s;
 }
 
-.parallax1, .parallax2, .parallax3, .parallax4 {
+.parallax-inner1, .parallax-inner4 {
+  font-size: 75px;
+  font-weight: bold;
+  height: 150px;
+  width: 300px;
+}
+
+ .parallax1, .parallax2, .parallax3, .parallax4 {
   margin-top: -50px;
   margin-left: -8px;
   padding: 150px 0;
   background: url("Skills.jpg") repeat fixed 100%;
 }
 
+.parallax0 {
+  background: url("Welcome.jpg") repeat fixed 100%;
+}
+ 
+.parallax4 {
+  background: url("")
+}
+
 .parallaxjquery {
-  background-color: black;
-  color: white;
+  background-color: #e37222;
+  color: rgb(225, 225, 225);
 }
 
 #carousel {
@@ -160,11 +176,11 @@ body {
 }
 
 .skill-title3 {
-  margin-left: -200px;
+  margin-left: -215px;
 }
 
 .skill-title4 {
-  margin-left: -300px;
+  margin-left: -250px;
 }
 
 .skill-title4 span {
@@ -184,11 +200,11 @@ body {
 }
 
 #info2 {
-  margin-top: 3em;
+  margin-top:2.6em;
 }
 
 #info3 {
-  margin-top: 3em;
+  margin-top: 2.7em;
 }
 
 #info4 {

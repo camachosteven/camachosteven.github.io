@@ -22,6 +22,16 @@ $(document).ready(function() {
     }
   );
 
+  // $('.parallax-inner0').hover(
+  //   function() {
+  //     $(this).addClass('parallaxjquery');
+  //   },
+  //
+  //   function() {
+  //     $(this).removeClass('parallaxjquery');
+  //   }
+  // );
+
   $('.parallax-inner1').hover(
     function() {
       $(this).addClass('parallaxjquery');
