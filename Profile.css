@@ -114,7 +114,7 @@ body {
   margin-top: 50px;
 }
 
- .parallax-inner0, .parallax-inner1, .parallax-inner2, .parallax-inner3, .parallax-inner4 {
+ .parallax-inner0, .parallax-inner1, .parallax-inner2, .parallax-inner3, .parallax-inner4, .parallax-inner5 {
   height: 100px;
   width: 200px;
   margin: auto;
@@ -129,14 +129,14 @@ body {
   transition: color 0.25s, background-color 0.25s;
 }
 
-.parallax-inner1, .parallax-inner4 {
+.parallax-inner1, .parallax-inner4, .parallax-inner5 {
   font-size: 75px;
   font-weight: bold;
   height: 150px;
   width: 300px;
 }
 
- .parallax0, .parallax1, .parallax2, .parallax3, .parallax4 {
+ .parallax0, .parallax1, .parallax2, .parallax3, .parallax4, .parallax5 {
   margin-top: -50px;
   margin-left: -8px;
   padding: 150px 0;
@@ -153,6 +153,11 @@ body {
 
 .parallax4 {
   background: url("Road.jpg") repeat fixed;
+  background-size: cover;
+}
+
+.parallax5 {
+  background: url("Contact.jpg") no-repeat fixed;
   background-size: cover;
 }
 
