@@ -8,7 +8,8 @@ body {
 .navigation {
   position: fixed;
   width: 100%;
-  margin-top: -100px ;
+  height: 80px;
+  margin-top: -80px ;
   margin-left: -8px;
   background-color: #018b95;
 }
@@ -18,8 +19,8 @@ body {
 }
 
 #logo {
-  height: 100px;
-  width: 100px;
+  height: 80px;
+  width: 80px;
   display: flex;
   align-items: center;
   border-radius: 100%;
@@ -43,7 +44,7 @@ body {
 
 .firstul {
   margin-left: 25em;
-  margin-top: 1em;
+  margin-top: 0.6em;
 
 }
 
@@ -64,7 +65,7 @@ body {
   width: 97%;
   height: 500px;
   margin: auto;
-  margin-top: 250px;
+  margin-top: 0px;
   margin-bottom: 50px;
   margin-left: -20px;
   display: flex;
@@ -113,7 +114,7 @@ body {
   margin-top: 50px;
 }
 
- .parallax-inner1, .parallax-inner2, .parallax-inner3, .parallax-inner4 {
+ .parallax-inner0, .parallax-inner1, .parallax-inner2, .parallax-inner3, .parallax-inner4 {
   height: 100px;
   width: 200px;
   margin: auto;
@@ -135,7 +136,7 @@ body {
   width: 300px;
 }
 
- .parallax1, .parallax2, .parallax3, .parallax4 {
+ .parallax0, .parallax1, .parallax2, .parallax3, .parallax4 {
   margin-top: -50px;
   margin-left: -8px;
   padding: 150px 0;
@@ -143,11 +144,16 @@ body {
 }
 
 .parallax0 {
-  background: url("Welcome.jpg") repeat fixed 100%;
+  height: 175px;
+  margin-top: 230px;
+  padding: 160px 0;
+  background: url("Welcome.jpg") repeat fixed;
+  background-size: cover;
 }
 
 .parallax4 {
-  background: url("")
+  background: url("Road.jpg") repeat fixed;
+  background-size: cover;
 }
 
 .parallaxjquery {
