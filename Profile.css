@@ -234,3 +234,12 @@ body {
   background-color: #e37222;
   color: rgb(225, 225, 225);
 }
+
+.contact {
+  height: 100px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: rgb(225, 225, 225);
+  color: #e37222;
+}
