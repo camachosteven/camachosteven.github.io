@@ -11,6 +11,8 @@ body {
   height: 80px;
   margin-top: -80px ;
   margin-left: -8px;
+  display: flex;
+  justify-content: center;
   background-color: #018b95;
 }
 
@@ -62,13 +64,14 @@ body {
 
 .bio {
   padding: 30px;
-  width: 97%;
+  width: 99.2%;
   height: 500px;
   margin: auto;
   margin-top: 0px;
   margin-bottom: 50px;
   margin-left: -20px;
   display: flex;
+  justify-content: center;
   background-color: #e37222;
 }
 
@@ -228,7 +231,9 @@ body {
   color: #e37222;
   display: flex;
   margin-left: -8px;
+  justify-content: center;
 }
+
 
 .carousel2 {
   background-color: #e37222;
