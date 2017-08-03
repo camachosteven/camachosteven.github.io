@@ -64,7 +64,6 @@ body {
 
 .bio {
   padding: 30px;
-  width: 99.2%;
   height: 500px;
   margin: auto;
   margin-top: 0px;
@@ -77,8 +76,8 @@ body {
 
 .bio ul {
   width: 646.43px;
-  margin-left: 0em;
-  margin-top: 100px;
+  margin-left: 1em;
+  margin-top: 150px;
   display: inline-block;
   text-align: center;
   list-style: none;
@@ -113,8 +112,8 @@ body {
 
 #portrait {
   border-radius: 75%;
-  margin-left: 150px;
-  margin-top: 50px;
+  margin-left: 25px;
+  margin-top: 100px;
 }
 
  .parallax-inner0, .parallax-inner1, .parallax-inner2, .parallax-inner3, .parallax-inner4, .parallax-inner5 {
@@ -171,7 +170,7 @@ body {
 
 #carousel {
   border-radius: 5%;
-  margin-left: 3.5em;
+  margin-left: 0em;
 }
 
 .skills {
@@ -179,14 +178,14 @@ body {
 }
 
 .skill-title, .skill-title2, .skill-title3, .skill-title4 {
-  margin-left: -20px;
+  margin-left: -30px;
   list-style: none;
   font-size: 60px;
   letter-spacing: 0.3em;
 }
 
 .skill-title2 {
-  margin-left: -220px;
+  margin-left: -225px;
 }
 
 .skill-title3 {
@@ -247,4 +246,8 @@ body {
   justify-content: center;
   background-color: rgb(225, 225, 225);
   color: #e37222;
+}
+
+#jithub {
+  margin: 0 75px;
 }
