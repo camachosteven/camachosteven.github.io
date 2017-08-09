@@ -119,7 +119,7 @@ body {
   transition: color 0.25s, background-color 0.25s;
 }
 
-.parallax-inner1, .parallax-inner4, .parallax-inner5 {
+.parallax-inner0, .parallax-inner1, .parallax-inner4, .parallax-inner5 {
   font-size: 75px;
   font-weight: bold;
   height: 2em;
@@ -132,6 +132,14 @@ body {
   padding: 10em 0;
   background: url("Road.jpg") repeat fixed;
   background-size: cover;
+}
+
+.parallax-inner0 {
+  width: 5.5em;
+}
+
+.parallax-inner5 {
+  width: 4.5em;
 }
 
 .parallax0 {
@@ -252,4 +260,43 @@ body {
 
 #jithub {
   margin: 0 3%;
+}
+
+@media only screen and (max-width: 890px) {
+  .firstul li {
+    margin-left: 5em;
+  }
+}
+
+@media only screen and (max-width: 836px) {
+  .carousel, .carousel2 {
+    min-height: 650px;
+  }
+
+  #info1, #info2, #info3, #info4 {
+    margin-top: 0.5em;
+  }
+
+  .skill-title, .skill-title2, .skill-title3, .skill-title4 {
+    margin-left: -5em;
+  }
+
+  .skill-title2 {
+    margin-left: -5.5em;
+  }
+
+  .skill-title3 {
+    margin-left: -5.5em;
+  }
+
+  .skills {
+    height: 200px;
+    width: 300px;
+  }
+}
+
+@media only screen and (max-width: 680px) {
+  .firstul li {
+    margin-left: 3em;
+  }
 }
