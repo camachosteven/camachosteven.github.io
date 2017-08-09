@@ -229,7 +229,7 @@ body {
   justify-content: center;
 }
 
-.carousel1, .carousel2 ul {
+.carousel ul, .carousel2 ul {
   max-height: 530px;
 }
 
