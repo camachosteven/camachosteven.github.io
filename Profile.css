@@ -1,5 +1,6 @@
 body {
-  margin-top: -150px;
+  /*background: rgb(225, 225, 225);*/
+  margin-top: -9.375em;
   width: 100%;
   color: rgb(225, 225, 225);
   font-family: "Artifika", serif;
@@ -8,80 +9,70 @@ body {
 .navigation {
   position: fixed;
   width: 100%;
-  height: 80px;
-  margin-top: -80px ;
-  margin-left: -8px;
+  height: auto;
+  min-height: 5em;
+  margin-top: -5em;
+  margin-left: -0.5em;
   display: flex;
   justify-content: center;
+  align-items: center;
   background-color: #018b95;
-}
-
-.header {
-  float: left;
 }
 
 #logo {
   height: 80px;
   width: 80px;
   display: flex;
+  justify-content: center;
   align-items: center;
   border-radius: 100%;
   background-color: rgb(225, 225, 225);
   transition: border 0.25s;
 }
 
+.header {
+  float: left;
+}
+
 .logojquery {
   border: 5px solid #e37222;
 }
 
-.header img {
-  margin-left: 0.7em;
-}
-
-.header li {
-  float: left;
-  display: inline;
-  margin-top: 0.8em;
-}
-
 .firstul {
-  margin-left: 25em;
-  margin-top: 0.6em;
-
+  margin-left: -5em;
+  margin-top: 0.5em;
 }
 
 .firstul li {
-  margin-left: 5em;
-  font-size: 18px;
+  display: inline;
+  margin-left: 8em;
+  font-size: 1.125em;
   transition: border 0.25s, border-style 0.25s, padding 0.25s;
 }
 
 .lijquery {
-  border: 2px rgb(225, 225, 225);
+  border: 0.125em rgb(225, 225, 225);
   border-style: solid dotted;
-  padding: 5px;
+  padding: 0.3125em;
 }
 
 .bio {
-  padding: 30px;
-  height: 500px;
-  margin: auto;
-  margin-top: 0px;
-  margin-bottom: 50px;
-  margin-left: -20px;
+  padding: 4em 1.875em;
+  height: auto;
+  margin-bottom: 3.125em;
+  margin-left: -1.25em;
   display: flex;
   justify-content: center;
+  align-items: center;
   background-color: #e37222;
 }
 
 .bio ul {
-  width: 646.43px;
-  margin-left: 1em;
-  margin-top: 150px;
-  display: inline-block;
+  max-width: 646.43px;
+  min-width: 200px;
   text-align: center;
   list-style: none;
-  font-size: 15px;
+  font-size: 0.9375em;
   font-weight: 100;
   letter-spacing: 0.25em;
 }
@@ -104,26 +95,23 @@ body {
 
 #name {
   list-style: none;
-  margin: auto;
-  font-size: 50px;
+  font-size: 3.125em;
   letter-spacing: -0.1em;
 
 }
 
 #portrait {
   border-radius: 75%;
-  margin-left: 25px;
-  margin-top: 100px;
 }
 
  .parallax-inner0, .parallax-inner1, .parallax-inner2, .parallax-inner3, .parallax-inner4, .parallax-inner5 {
-  height: 100px;
-  width: 200px;
+  height: 3.75em;
+  width: 7.5em;
   margin: auto;
   background-color: rgb(225, 225, 225);
   border-radius: 25%;
   color: #018b95;
-  font-size: 30px;
+  font-size: 1.875em;
   text-align: center;
   display: flex;
   align-items: center;
@@ -134,21 +122,22 @@ body {
 .parallax-inner1, .parallax-inner4, .parallax-inner5 {
   font-size: 75px;
   font-weight: bold;
-  height: 150px;
-  width: 300px;
+  height: 2em;
+  width: 4em;
 }
 
  .parallax0, .parallax1, .parallax2, .parallax3, .parallax4, .parallax5 {
-  margin-top: -50px;
-  margin-left: -8px;
-  padding: 150px 0;
-  background: url("Skills.jpg") repeat fixed 100%;
+  margin-top: -3.125em;
+  margin-left: -0.5em;
+  padding: 10em 0;
+  background: url("Road.jpg") repeat fixed;
+  background-size: cover;
 }
 
 .parallax0 {
-  height: 175px;
-  margin-top: 230px;
-  padding: 160px 0;
+  height: 11em;
+  margin-top: 14.375em;
+  padding: 10em 0;
   background: url("Welcome.jpg") repeat fixed;
   background-size: cover;
 }
@@ -175,25 +164,30 @@ body {
 
 .skills {
   margin-top: 125px;
+  /*width: 35%;
+  height: 20%;*/
 }
 
 .skill-title, .skill-title2, .skill-title3, .skill-title4 {
-  margin-left: -30px;
+  margin-left: -8em;
+  display: flex;
+  align-items: center;
+  justify-content: center;
   list-style: none;
   font-size: 60px;
   letter-spacing: 0.3em;
 }
 
 .skill-title2 {
-  margin-left: -225px;
+  margin-left: -8em;
 }
 
 .skill-title3 {
-  margin-left: -215px;
+  margin-left: -9em;
 }
 
 .skill-title4 {
-  margin-left: -250px;
+  margin-left: -4.16em;
 }
 
 .skill-title4 span {
@@ -202,8 +196,9 @@ body {
 }
 
 .skill-info {
-  margin-left: 10em;
-  width: 31.25em;
+  margin-left: 1%;
+  max-width: 500px;
+  min-width: 200px;
   list-style: square;
 }
 
@@ -225,7 +220,8 @@ body {
 }
 
 .carousel, .carousel2 {
-  height: 600px;
+  min-height: 600px;
+  height: auto;
   background-color: rgb(225, 225, 225);
   color: #e37222;
   display: flex;
@@ -233,13 +229,19 @@ body {
   justify-content: center;
 }
 
+.carousel1, .carousel2 ul {
+  max-height: 530px;
+}
 
 .carousel2 {
   background-color: #e37222;
   color: rgb(225, 225, 225);
 }
 
+
+
 .contact {
+  padding: 2%;
   height: 100px;
   display: flex;
   align-items: center;
@@ -249,5 +251,5 @@ body {
 }
 
 #jithub {
-  margin: 0 75px;
+  margin: 0 3%;
 }
