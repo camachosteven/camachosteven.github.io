@@ -43,6 +43,16 @@ $(document).ready(function() {
     }
   );
 
+  $('#portrait').hover(
+    function() {
+    $(this).addClass('portraitjquery');
+    },
+
+    function() {
+      $(this).removeClass('portraitjquery');
+    }
+);
+
   $('.parallax-inner1').hover(
     function() {
       $(this).addClass('parallaxjquery');

@@ -2,7 +2,7 @@ body {
   /*background: rgb(225, 225, 225);*/
   margin-top: -9.375em;
   width: 100%;
-  color: rgb(225, 225, 225);
+  color: #F2A104;
   font-family: "Artifika", serif;
 }
 
@@ -16,7 +16,7 @@ body {
   display: flex;
   justify-content: center;
   align-items: center;
-  background-color: #018b95;
+  background-color: #192E5B;
 }
 
 #logo {
@@ -26,7 +26,7 @@ body {
   justify-content: center;
   align-items: center;
   border-radius: 100%;
-  background-color: rgb(225, 225, 225);
+  background-color: #F2A104;
   transition: border 0.25s;
 }
 
@@ -35,7 +35,7 @@ body {
 }
 
 .logojquery {
-  border: 5px solid #e37222;
+  border: 5px solid #91d0f7;
 }
 
 .firstul {
@@ -52,7 +52,7 @@ body {
 }
 
 .lijquery {
-  border: 0.125em rgb(225, 225, 225);
+  border: 0.125em #F2A104;
   border-style: solid dotted;
   padding: 0.3125em;
 }
@@ -65,7 +65,8 @@ body {
   display: flex;
   justify-content: center;
   align-items: center;
-  background-color: #e37222;
+  background-color: #1D65A6;
+  color: #91d0f7;
 }
 
 .bio ul {
@@ -103,15 +104,21 @@ body {
 
 #portrait {
   border-radius: 75%;
+  transition: border 0.25s;
+}
+
+.portraitjquery {
+  border: 10px solid #91d0f7;
+  border-radius: 75%;
 }
 
  .parallax-inner0, .parallax-inner1, .parallax-inner2, .parallax-inner3, .parallax-inner4, .parallax-inner5 {
   height: 3.75em;
   width: 7.5em;
   margin: auto;
-  background-color: rgb(225, 225, 225);
+  background-color: #F2A104;
   border-radius: 25%;
-  color: #018b95;
+  color: #192E5B;
   font-size: 1.875em;
   text-align: center;
   display: flex;
@@ -162,8 +169,8 @@ body {
 }
 
 .parallaxjquery {
-  background-color: #e37222;
-  color: rgb(225, 225, 225);
+  background-color: #192E5B;
+  color: #F2A104;
 }
 
 #carousel {
@@ -173,8 +180,6 @@ body {
 
 .skills {
   margin-top: 125px;
-  /*width: 35%;
-  height: 20%;*/
 }
 
 .skill-title, .skill-title2, .skill-title3, .skill-title4 {
@@ -231,8 +236,8 @@ body {
 .carousel, .carousel2, .carousel3, .projecttitle {
   min-height: 600px;
   height: auto;
-  background-color: rgb(225, 225, 225);
-  color: #e37222;
+  background-color: #91d0f7;
+  color: #00743F;
   display: flex;
   margin-left: -8px;
   justify-content: center;
@@ -243,8 +248,8 @@ body {
 }
 
 .carousel2 {
-  background-color: #e37222;
-  color: rgb(225, 225, 225);
+  background-color: #1D65A6;
+  color: #91d0f7;
 }
 
 .carousel3 {
@@ -281,9 +286,11 @@ body {
 
 .frontend li, .backend li {
   font-size: 25px;
+  color: #d38c08;
 }
 
 li.codetype {
+  color: #192E5B;
   font-size: 40px;
   margin-bottom: 1em;
   display: flex;
@@ -292,6 +299,7 @@ li.codetype {
 }
 
 li.final {
+  color: #192E5B;
   text-decoration: underline;
 }
 
@@ -329,19 +337,18 @@ li.final {
   display: flex;
   align-items: center;
   justify-content: center;
-  background-color: rgb(225, 225, 225);
-  color: #e37222;
+  background-color: #1D65A6;
+  color: #91d0f7;
 }
 
 .email {
   font-size: 30px;
   height: 40px;
-
   display: flex;
   justify-content: center;
   align-items: center;
-  background-color: rgb(225, 225, 225);
-  color: black;
+  background-color: #1D65A6;
+  color: #91d0f7;
 }
 
 #jithub {
