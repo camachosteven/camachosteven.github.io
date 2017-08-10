@@ -108,7 +108,7 @@ body {
 }
 
 .portraitjquery {
-  border: 5px solid #91d0f7;
+  border: 5px solid #00743F;
   border-radius: 75%;
 }
 
@@ -358,6 +358,8 @@ li.final {
 #jithub {
   margin: 0 3%;
 }
+
+
 
 @media only screen and (max-width: 890px) {
   .firstul li {
