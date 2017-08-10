@@ -44,6 +44,7 @@ body {
 }
 
 .firstul li {
+  cursor: pointer;
   display: inline;
   margin-left: 8em;
   font-size: 1.125em;
@@ -227,7 +228,7 @@ body {
   margin-top: 3em;
 }
 
-.carousel, .carousel2 {
+.carousel, .carousel2, .carousel3, .projecttitle {
   min-height: 600px;
   height: auto;
   background-color: rgb(225, 225, 225);
@@ -246,16 +247,101 @@ body {
   color: rgb(225, 225, 225);
 }
 
+.carousel3 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 35px;
+}
 
+.projecttitle {
+  font-size: 60px;
+  min-height: 50px;
+  margin-bottom: -0.75em;
+}
+
+.projecttitle span {
+  margin-left: 0.5em;
+  letter-spacing: 0.3em;
+}
+
+.frontend, .backend {
+  margin: 0 1em;
+  margin-top: -2em;
+  border: 5px solid black;
+  height: 400px;
+  width: 400px;
+}
+
+.frontend ul, .backend ul {
+  padding: 0;
+  list-style: none;
+  text-align: center;
+}
+
+.frontend li, .backend li {
+  font-size: 25px;
+}
+
+li.codetype {
+  font-size: 40px;
+  margin-bottom: 1em;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+li.final {
+  text-decoration: underline;
+}
+
+.html {
+  margin-left: -0.25em;
+  margin-right: 0.3em;
+}
+
+.css {
+  margin-left: 0.5em;
+}
+
+.javascript {
+  display: inline;
+  margin-left: 2.5em;
+  margin-top: -1em;
+}
+
+.ruby {
+  margin-right: 0.3em;
+}
+
+.rails {
+  margin-left: 0.3em;
+}
+
+.jit {
+  margin-left: 4.5em;
+  margin-top: -0.75em;
+}
 
 .contact {
-  padding: 2%;
+  padding: 5% 5% 1% 5%;
   height: 100px;
   display: flex;
   align-items: center;
   justify-content: center;
   background-color: rgb(225, 225, 225);
   color: #e37222;
+}
+
+.email {
+  font-size: 30px;
+  height: 40px;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: rgb(225, 225, 225);
+  color: black;
 }
 
 #jithub {
@@ -265,6 +351,24 @@ body {
 @media only screen and (max-width: 890px) {
   .firstul li {
     margin-left: 5em;
+  }
+}
+
+@media only screen and (max-width: 860px) {
+  .frontend li, .backend li {
+    font-size: 20px;
+  }
+
+  li.codetype {
+    font-size: 30px;
+  }
+
+  .jit {
+    margin-left: 2.5em;
+  }
+
+  .javascript {
+    margin-left: 2em;
   }
 }
 
@@ -292,6 +396,12 @@ body {
   .skills {
     height: 200px;
     width: 300px;
+  }
+}
+
+@media only screen and (max-width: 730px) {
+  .javascript {
+    margin-left: 1.2em;
   }
 }
 
