@@ -126,34 +126,4 @@ $(document).ready(function() {
       scrollTop: $('.parallax5').offset().top
     }, 800);
   });
-
-  $('.instagram').hover(
-    function() {
-      $(this).addClass('instagramjquery');
-    },
-
-    function() {
-      $(this).removeClass('instagramjquery');
-    }
-  );
-
-  $('#jithub').hover(
-    function() {
-      $(this).addClass('.jithubjquery');
-    },
-
-    function() {
-      $(this).removeClass('.jithubjquery');
-    }
-  );
-
-  $('.skype').hover(
-    function() {
-      $(this).addClass('skypejquery');
-    },
-
-    function() {
-      $(this).removeClass('skypejquery');
-    }
-  );
 });
