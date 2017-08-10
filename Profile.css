@@ -65,8 +65,8 @@ body {
   display: flex;
   justify-content: center;
   align-items: center;
-  background-color: #1D65A6;
-  color: #91d0f7;
+  background-color: #91d0f7;
+  color: #00743F;
 }
 
 .bio ul {
@@ -108,7 +108,7 @@ body {
 }
 
 .portraitjquery {
-  border: 10px solid #91d0f7;
+  border: 5px solid #91d0f7;
   border-radius: 75%;
 }
 
@@ -236,8 +236,8 @@ body {
 .carousel, .carousel2, .carousel3, .projecttitle {
   min-height: 600px;
   height: auto;
-  background-color: #91d0f7;
-  color: #00743F;
+  background-color: #1D65A6;
+  color: #91d0f7;
   display: flex;
   margin-left: -8px;
   justify-content: center;
@@ -247,9 +247,9 @@ body {
   max-height: 530px;
 }
 
-.carousel2 {
-  background-color: #1D65A6;
-  color: #91d0f7;
+.carousel2, .carousel3, .projecttitle {
+  background-color: #91d0f7;
+  color: #00743F;
 }
 
 .carousel3 {
@@ -332,7 +332,7 @@ li.final {
 }
 
 .contact {
-  padding: 5% 5% 1% 5%;
+  padding: 3% 5% 2% 5%;
   height: 100px;
   display: flex;
   align-items: center;
@@ -341,7 +341,7 @@ li.final {
   color: #91d0f7;
 }
 
-.email {
+.email, .copyright {
   font-size: 30px;
   height: 40px;
   display: flex;
@@ -349,6 +349,10 @@ li.final {
   align-items: center;
   background-color: #1D65A6;
   color: #91d0f7;
+}
+
+.copyright {
+  padding: 1% 0;
 }
 
 #jithub {
