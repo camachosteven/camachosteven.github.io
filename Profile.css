@@ -367,12 +367,29 @@ li.final {
   color: #91d0f7;
 }
 
+
+
 .copyright {
   padding: 1% 0;
 }
 
+.instagramjquery {
+  height: 150px;
+  width: 150px;
+}
+
 #jithub {
   margin: 0 3%;
+}
+
+#jithubjquery {
+  height: 150px;
+  width: 300px;
+}
+
+.skypejquery {
+  height: 150px;
+  width: 150px;
 }
 
 
