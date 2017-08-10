@@ -159,7 +159,7 @@ body {
 }
 
 .parallax4 {
-  background: url("Road.jpg") repeat fixed;
+  background: url("Work.jpg") repeat fixed;
   background-size: cover;
 }
 
@@ -312,12 +312,6 @@ li.final {
   margin-left: 0.5em;
 }
 
-.javascript {
-  display: inline;
-  margin-left: 2.5em;
-  margin-top: -1em;
-}
-
 .ruby {
   margin-right: 0.3em;
 }
@@ -326,12 +320,33 @@ li.final {
   margin-left: 0.3em;
 }
 
+.pictures, .pics {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.pics {
+  margin-top: -1em;
+}
+
+.jquery {
+  margin-left: 1em;
+}
+
+.commandline {
+  margin-top: -0.7em;
+  height: 85px;
+  width: 85px;
+}
+
 .jit {
-  margin-left: 4.5em;
-  margin-top: -0.75em;
+  margin-left: 1em;
+  margin-top: -0.7em;
 }
 
 .contact {
+  margin-left: -8px;
   padding: 3% 5% 2% 5%;
   height: 100px;
   display: flex;
@@ -342,7 +357,8 @@ li.final {
 }
 
 .email, .copyright {
-  font-size: 30px;
+  margin-left: -8px;
+  font-size: 20px;
   height: 40px;
   display: flex;
   justify-content: center;
@@ -375,14 +391,6 @@ li.final {
   li.codetype {
     font-size: 30px;
   }
-
-  .jit {
-    margin-left: 2.5em;
-  }
-
-  .javascript {
-    margin-left: 2em;
-  }
 }
 
 @media only screen and (max-width: 836px) {
@@ -409,12 +417,6 @@ li.final {
   .skills {
     height: 200px;
     width: 300px;
-  }
-}
-
-@media only screen and (max-width: 730px) {
-  .javascript {
-    margin-left: 1.2em;
   }
 }
 

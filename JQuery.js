@@ -103,7 +103,7 @@ $(document).ready(function() {
     }
   );
 
-  $('#welcome').on('click', function() {
+  $('#welcome').click(function() {
     $('html, body').animate({
       scrollTop: $('.parallax0').offset().top
     }, 800);
