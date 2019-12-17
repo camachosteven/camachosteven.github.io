@@ -270,7 +270,7 @@ body {
   letter-spacing: 0.3em;
 }
 
-.frontend, .backend {
+.projects {
   margin: 0 1em;
   margin-top: -2em;
   border: 5px solid black;
@@ -278,13 +278,13 @@ body {
   width: 400px;
 }
 
-.frontend ul, .backend ul {
+.projects ul {
   padding: 0;
   list-style: none;
   text-align: center;
 }
 
-.frontend li, .backend li {
+.projects li {
   font-size: 25px;
   color: #d38c08;
 }
@@ -330,8 +330,10 @@ li.final {
   margin-top: -1em;
 }
 
+
+
 .jquery {
-  margin-left: 1em;
+  margin-left: 0.5em;
 }
 
 .commandline {
@@ -392,8 +394,6 @@ li.final {
   width: 150px;
 }
 
-
-
 @media only screen and (max-width: 890px) {
   .firstul li {
     margin-left: 5em;
@@ -401,7 +401,7 @@ li.final {
 }
 
 @media only screen and (max-width: 860px) {
-  .frontend li, .backend li {
+  .projects li, .backend li {
     font-size: 20px;
   }
 
