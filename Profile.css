@@ -286,7 +286,7 @@ body {
 
 .projects li {
   font-size: 25px;
-  color: #d38c08;
+  color: #cc5200;
 }
 
 li.codetype {
@@ -298,8 +298,16 @@ li.codetype {
   align-items: center;
 }
 
-li.final {
-  color: #cc5200;
+li.codetype2 {
+  color: #192E5B;
+  font-size: 30px;
+  margin-bottom: 1em;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+li.final, li.final2 {
   text-decoration: underline;
 }
 
